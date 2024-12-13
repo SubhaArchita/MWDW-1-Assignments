@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Border</title>
+    <style>
+        .container 
+        {
+            font-family: "Times New Roman", serif;
+            font-style: italic;
+            font-size: 170%;
+            text-align: center;
+            padding: 60px; 
+            width: 350px;
+            height: 300px;
+            margin: auto;
+            position: relative;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0,0.3); 
+            overflow: hidden;
+        }
+        .edge {
+            position: absolute;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+         .top-edge, .bottom-edge {
+            height: 50px; 
+            left: 0;
+            right: 0;
+            background-position: center;
+        }
+        .left-edge, .right-edge {
+            width: 50px; 
+            top: 0;
+            bottom: 0;
+            background-position: center;
+        }
+        .top-edge {
+            top: 0;
+            background-image: url('top.jpg');
+        }
+        .bottom-edge {
+            bottom: 0;
+            background-image: url('botttom.jpg');
+        }
+       
+        .left-edge {
+            left: 0;
+            background-image: url('left.jpg');
+        }
+        .right-edge {
+            right: 0;
+            background-image: url('right.jpg');
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="edge top-edge"></div>
+        <div class="edge bottom-edge"></div>
+        <div class="edge left-edge"></div>
+        <div class="edge right-edge"></div>
+        <b>
+        <p>Employee of the month</p>
+            Awarded To:
+            <br>
+            ____________
+            <br>
+            <br>
+            Date:
+            <br>
+            __/__/____
+        </b>
+        
+    </div>
+</body>
+</html>

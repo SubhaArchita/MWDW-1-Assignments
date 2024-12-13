@@ -1,0 +1,43 @@
+img{
+    width: 15%;
+    height: 15%;
+    float: left;
+}
+
+pre{
+    margin:1%;
+}
+
+dd{
+    margin:1%
+}
+
+a:link {
+    color: blue;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    font-size: 20px;
+  }
+
+.container{
+    padding: 1%;
+    margin: 2%;
+    border-style:groove;
+    border-color: rgba(0,0,0,0.2);
+    display: flex; 
+    align-items: flex-start;
+}
+.heading{
+    margin: 1%;
+    font-size: 20px;
+    /* color:rgb(26, 154, 186); */
+    font-weight: 900;
+}
+.float-right{
+
+}

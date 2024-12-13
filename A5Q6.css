@@ -1,0 +1,12 @@
+#box1, #box3 {
+    background-color: #2ecc71;
+    color: #ffffff; 
+    padding: 10px;
+}
+.box {
+    font-size: 14px; 
+    font-weight: bold; 
+}
+#box2 {
+    border: 2px dashed #3498db; 
+}

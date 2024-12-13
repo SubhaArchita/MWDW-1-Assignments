@@ -1,0 +1,37 @@
+body {
+    background-image:url('bgimg.avif'); /* Deep Velvet Purple (rich and sophisticated) */
+    color: #E8D4B6; /* Soft Champagne Gold (elegant and easy on the eyes) */
+    font-family: 'Playfair Display', serif; /* Elegant, modern serif font */
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #2b003a; /* Dark, subtle background to make text pop */
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    border: 2px solid #FFD700; /* Thin gold border for refinement */
+  }
+  header{
+    text-align: center;
+    font-family:cursive;
+    font-size: 40px;
+    font-style:italic;
+    font-weight:bold;
+  }
+  .About,.Venue,.Date,.Theme,.Dress,.RSVP{
+    text-align: center;
+    font-size: 15px;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  h3{
+    font-weight: bold;
+    font-size: 20px;
+    font-family:fantasy;
+  }
+ 
