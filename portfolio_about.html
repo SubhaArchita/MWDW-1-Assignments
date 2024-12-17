@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #bf80e1;
+        }
+        .content{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            width: 500px;
+            height: fit-content;
+            position: relative;
+            left: 500px;
+            top: 100px;
+            
+        }
+        img{
+            width: 250px;
+            height: 250px;
+            position: relative;
+            left: 400px;
+            top: 100px;
+        }
+        .heading{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 50px;
+            position: relative;
+            left: 700px;
+            top: 100px;
+        }
+        .container{
+            display: flex;
+
+        }
+        .menu-bar {
+            position: fixed;
+            top: 0; 
+            left: 0; 
+            width: 200px;
+            height: 100%;
+            background-color: #501e6a;
+            overflow-x: hidden; 
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            padding-top: 20px;
+        }
+
+    
+        .menu-bar a {
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu-bar">
+        <a href="portfolio_home.html">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    <p class="heading">About Me:</p>
+    <div class="container"> 
+        <img src="avatar.png">
+        <p class="content">
+            I am a curious and driven individual who enjoys exploring new opportunities and learning from diverse experiences. With a passion for personal growth and creativity, I constantly strive to improve my skills and expand my knowledge in various fields. I value meaningful connections, effective communication, and the ability to adapt to different challenges. In my free time, I enjoy pursuing hobbies that inspire me, staying active, and finding ways to contribute positively to the world around me.
+        </p>
+    </div>
+</body>
+</html>
