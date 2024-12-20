@@ -3,80 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            background-image: url('port6.jpeg');
-            background-size: cover;
-            background-repeat: no-repeat;   
-            
-        }
-        .heading{
-            font-weight: bold;
-            font-size:70px;
-        }
-        .content{
-            color: #4d176a;
-            font-size:50px;
-
-        }
-        .menu-bar {
-            position: fixed;
-            top: 0; 
-            left: 0; 
-            width: 200px;
-            height: 100%;
-            background-color: #501e6a;
-            overflow-x: hidden; 
-            display: flex;
-            flex-direction: column;
-            align-items: start;
-            padding-top: 20px;
-        }
-
-    
-        .menu-bar a {
-            padding: 15px 20px;
-            text-decoration: none;
-            font-size: 18px;
-            color: white;
-            display: block;
-        }
-
-        .container {
-            margin-left: 200px; 
-            padding: 20px;
-            /* padding-top: 200px; */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            position: absolute;
-            right:45%;
-            top: 13%;
-        }
-       img{
-        position: absolute;
-        left:50%;
-        height: 70%;
-        padding-top: 10%;
-       }
-       
-    </style>
+    <title>Digital Portfolio</title>
+    <link rel="stylesheet" href="portfolio_home.css">
 </head>
 <body>
     
     <nav class="menu-bar">
-        <a href="#aboutMe">About Me</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      
-      <img src="port4.png" class="image">
-        <div class="container">
+        <a href="portfolio_about.html">About Me</a>
+        <a href="portfolio_port.html">Portfolio</a>
+        <a href="portfolio_contact.html">Contact</a>
+    </nav>
+
+    
+    <div class="container">
+        <div class="text">
             <p class="heading">Welcome to My Digital Portfolio</p>
             <p class="content">Hi, I'm Archita. Explore my work and learn more about me!</p>
         </div>
-   
-    
+        <img src="port4.png" alt="Portfolio Image" class="image">
+    </div>
 </body>
 </html>

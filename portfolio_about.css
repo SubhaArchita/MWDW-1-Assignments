@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('port6.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    height: 80vh;
+}
+
+
+.menu-bar {
+    width: 250px;
+    height: 100%;
+    background-color: #501e6a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-bar a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-bar a:hover {
+    background-color: #7a3b8c;
+    color: #fff;
+}
+
+.menu-bar a.active {
+    background-color: #9a4b9d;
+    font-weight: bold;
+}
+.main-content {
+    margin-left: 270px;
+    width: calc(100% - 270px);
+    text-align: center;
+}
+
+.heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color:#501e6a;
+}
+
+.content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#501e6a;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #501e6a;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.profile-text {
+    max-width: 600px;
+}

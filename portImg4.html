@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,5 +13,91 @@
 <body>
     <center><img src = "portImg4.jpeg" style="width: 200px; height: auto;"></center>
     <p>In this captivating image, a panda is seen lounging atop a tree stump, its body language exuding complete relaxation. The panda's front legs hang lazily over the edge of the stump, while its head rests softly on the wooden surface. The surrounding greenery frames the scene, creating a lush and vibrant background that emphasizes the panda's peaceful state. The black and white fur of the panda stands out against the earthy brown of the stump, drawing the viewer's attention to this adorable creature. The image captures a moment of tranquility and contentment, offering a glimpse into the serene life of a panda in its natural environment. The gentle rustling of leaves and the soft chirping of birds add an extra layer of calm to the scene.</p>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Scene</title>
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url('port6.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        
+        .image-container img {
+            max-width: 400px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+        }
+
+        
+        .description {
+            max-width: 800px;
+            text-align: justify;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #501e6a;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .description strong {
+            color: #501e6a;
+        }
+
+        
+        @media (max-width: 768px) {
+            .image-container img {
+                max-width: 300px;
+            }
+
+            .description {
+                font-size: 1rem;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="image-container">
+        <img src="portImg4.jpeg" alt="Serene Forest">
+    </div>
+
+    
+    <div class="description">
+        <p>
+            In this <strong>captivating</strong> image, a panda is seen lounging atop a tree stump, its body language exuding complete <strong>relaxation</strong>. The panda's front legs hang lazily over the edge of the stump, while its head rests softly on the wooden surface. The surrounding greenery frames the scene, creating a <strong>lush and vibrant</strong> background that emphasizes the panda's peaceful state. The <strong>black and white fur</strong> of the panda stands out against the earthy brown of the stump, drawing the viewer's attention to this adorable creature. The image captures a moment of <strong>tranquility and contentment</strong>, offering a glimpse into the serene life of a panda in its natural environment. The <strong>gentle rustling</strong> of leaves and the soft chirping of birds add an extra layer of calm to the scene.
+        </p>
+        
+    </div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,5 +13,92 @@
 <body>
     <center><img src = "portImg3.jpeg" style="width: 200px; height: auto;"></center>
     <p>In this captivating image, the beach is bathed in the soft, warm light of a setting sun. The sky, adorned with streaks of white clouds, transitions from deep orange to a lighter yellow as the sun descends toward the horizon. The calm ocean waves mirror the vibrant colors, enhancing the tranquil ambiance. The sandy beach, marked by footprints and small sand mounds, stretches out to the edge of the water. At the bottom of the image, a book lies open next to a patterned blanket, evoking a sense of peaceful solitude and leisure. The scene invites the viewer to imagine themselves in this idyllic setting, enjoying a quiet moment of reflection and escape from the world. The gentle sound of waves lapping at the shore adds a soothing auditory element, complementing the visual serenity of the sunset.</p>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Scene</title>
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url('port6.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        
+        .image-container img {
+            max-width: 400px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+        }
+
+        
+        .description {
+            max-width: 800px;
+            text-align: justify;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #501e6a;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .description strong {
+            color: #501e6a;
+        }
+
+        
+        @media (max-width: 768px) {
+            .image-container img {
+                max-width: 300px;
+            }
+
+            .description {
+                font-size: 1rem;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="image-container">
+        <img src="portImg3.jpeg" alt="Serene Forest">
+    </div>
+
+    
+    <div class="description">
+        <p>
+            In this <strong>captivating</strong> image, the beach is bathed in the <strong>soft, warm light</strong> of a <strong>setting sun</strong>. The sky, adorned with streaks of white clouds, transitions from <strong>deep orange</strong> to a lighter yellow as the sun descends toward the horizon. The <strong>calm ocean waves</strong> mirror the vibrant colors, enhancing the <strong>tranquil ambiance</strong>. The sandy beach, marked by footprints and small sand mounds, stretches out to the edge of the water. At the bottom of the image, a book lies open next to a patterned blanket, evoking a sense of <strong>peaceful solitude</strong> and leisure. The scene invites the viewer to imagine themselves in this <strong>idyllic setting</strong>, enjoying a quiet moment of reflection and escape from the world. The <strong>gentle sound</strong> of waves lapping at the shore adds a soothing auditory element, complementing the <strong>visual serenity</strong> of the sunset.
+        </p>
+        
+    </div>
 </body>
 </html>

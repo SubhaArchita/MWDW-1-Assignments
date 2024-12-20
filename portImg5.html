@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,5 +13,91 @@
 <body>
     <center><img src = "portImg5.jpeg" style="width: 200px; height: auto;"></center>
     <p>In this charming photograph, a giraffe is captured in a close-up shot, peeking between two tree trunks with a curious and almost playful expression. Its eyes are partially closed, and its mouth slightly open, giving the impression of a contented moment in its natural environment. The background is a soft blur of green foliage, providing a serene and lush backdrop that enhances the giraffe's presence. The intricate pattern of brown patches on its coat, separated by white lines, is beautifully detailed, making the giraffe the focal point of the image. This intimate portrait invites the viewer to appreciate the gentle and inquisitive nature of these majestic creatures, offering a glimpse into their world. The soft rustle of leaves in the breeze and the distant calls of other animals add an auditory dimension to the tranquil scene.</p>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Scene</title>
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url('port6.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        
+        .image-container img {
+            max-width: 400px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+        }
+
+        
+        .description {
+            max-width: 800px;
+            text-align: justify;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #501e6a;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .description strong {
+            color: #501e6a;
+        }
+
+        
+        @media (max-width: 768px) {
+            .image-container img {
+                max-width: 300px;
+            }
+
+            .description {
+                font-size: 1rem;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="image-container">
+        <img src="portImg5.jpeg" alt="Serene Forest">
+    </div>
+
+    
+    <div class="description">
+        <p>
+            In this <strong>charming</strong> photograph, a giraffe is captured in a close-up shot, peeking between two tree trunks with a <strong>curious</strong> and almost <strong>playful expression</strong>. Its eyes are partially closed, and its mouth slightly open, giving the impression of a <strong>contented moment</strong> in its natural environment. The background is a soft blur of <strong>green foliage</strong>, providing a serene and lush backdrop that enhances the giraffe's presence. The intricate pattern of brown patches on its coat, separated by white lines, is beautifully detailed, making the giraffe the <strong>focal point</strong> of the image. This intimate portrait invites the viewer to appreciate the <strong>gentle</strong> and <strong>inquisitive nature</strong> of these majestic creatures, offering a glimpse into their world. The soft rustle of leaves in the breeze and the distant calls of other animals add an auditory dimension to the <strong>tranquil scene</strong>.
+        </p>
+        
+    </div>
 </body>
 </html>

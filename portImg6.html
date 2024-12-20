@@ -1,17 +1,87 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Otter Scene</title>
     <style>
-        body{
-            background-color: #bf80e1;
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-image: url('port6.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .image-container img {
+            max-width: 400px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+        }
+
+        .description {
+            max-width: 800px;
+            text-align: justify;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #501e6a;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .description strong {
+            color: #501e6a;
+        }
+
+        @media (max-width: 768px) {
+            .image-container img {
+                max-width: 300px;
+            }
+
+            .description {
+                font-size: 1rem;
+                padding: 15px;
+            }
         }
     </style>
 </head>
 <body>
-    <center><img src = "portImg6.jpeg" style="width: 200px; height: auto;"></center>
-    <p>In this charming photograph, an otter strikes an endearing pose with its front paws covering its cheeks and mouth, creating an impression of playful surprise or shyness. Its eyes are partially closed, adding to the expressive quality of the image. The otter's fur, a warm brown, stands out against the light-colored wall in the background, which is lightly shadowed, emphasizing the otter as the focal point. This delightful snapshot not only showcases the otter's natural cuteness but also evokes a sense of amusement and affection in the viewer, making it a memorable and heartwarming image. The playful splashing of water and the otter's soft chittering add to the overall charm, making the scene even more endearing.</p>
+    
+    <div class="image-container">
+        <img src="portImg6.jpeg" alt="Adorable Otter">
+    </div>
+
+    
+    <div class="description">
+        <p>
+            In this charming photograph, an otter strikes an <strong>endearing pose</strong> with its front paws covering its cheeks and mouth, creating an impression of playful surprise or shyness. Its eyes are partially closed, adding to the <strong>expressive quality</strong> of the image. 
+            The otter's fur, a <strong>warm brown</strong>, stands out against the light-colored wall in the background, which is lightly shadowed, emphasizing the otter as the <strong>focal point</strong>.
+        </p>
+        <p>
+            This delightful snapshot not only showcases the otter's <strong>natural cuteness</strong> but also evokes a sense of <strong>amusement and affection</strong> in the viewer, making it a <strong>memorable and heartwarming image</strong>.
+        </p>
+        <p>
+            The playful splashing of water and the otter's <strong>soft chittering</strong> add to the overall charm, making the scene even more <strong>endearing</strong>.
+        </p>
+    </div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,4 +14,90 @@
     <center><img src = "portImg2.jpeg" style="width: 200px; height: auto;"></center>
     <p>In this evocative image, a solitary tree stands silhouetted against the grandeur of a setting sun. The tree's bare branches stretch out like intricate veins, reaching towards the vast expanse of the sky. The sun, positioned directly behind the tree, bathes the scene in a palette of warm hues, transitioning from deep orange near the horizon to a soft yellow higher up. This gradient of colors enhances the dramatic effect, making the branches seem to radiate with an ethereal glow. The serene and tranquil quality of the image captures a fleeting, yet profound moment of natural beauty, evoking a sense of wonder and contemplation. The quiet calm of the sunset invites reflection, as the day's end gives way to the soothing promise of twilight.</p>
 </body>
-</html>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forest Scene</title>
+        <style>
+            
+            body {
+                margin: 0;
+                font-family: 'Arial', sans-serif;
+                background-image: url('port6.jpeg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+    
+            
+            .image-container img {
+                max-width: 400px;
+                height: auto;
+                border-radius: 15px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+    
+            .image-container img:hover {
+                transform: scale(1.05);
+                box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+            }
+    
+            
+            .description {
+                max-width: 800px;
+                text-align: justify;
+                font-size: 1.2rem;
+                line-height: 1.8;
+                color: #501e6a;
+                margin-top: 20px;
+                padding: 20px;
+                background-color: rgba(255, 255, 255, 0.1);
+                border-radius: 15px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            }
+    
+            .description strong {
+                color: #501e6a;
+            }
+    
+            
+            @media (max-width: 768px) {
+                .image-container img {
+                    max-width: 300px;
+                }
+    
+                .description {
+                    font-size: 1rem;
+                    padding: 15px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="image-container">
+            <img src="portImg2.jpeg" alt="Serene Forest">
+        </div>
+    
+        
+        <div class="description">
+            <p>
+                In this <strong>evocative</strong> image, a solitary tree stands silhouetted against the grandeur of a <strong>setting sun</strong>. The tree's bare branches stretch out like intricate veins, reaching towards the vast expanse of the sky. The sun, positioned directly behind the tree, bathes the scene in a palette of <strong>warm hues</strong>, transitioning from <strong>deep orange</strong> near the horizon to a soft yellow higher up. This gradient of colors enhances the <strong>dramatic effect</strong>, making the branches seem to radiate with an <strong>ethereal glow</strong>. The serene and tranquil quality of the image captures a fleeting, yet profound moment of <strong>natural beauty</strong>, evoking a sense of <strong>wonder and contemplation</strong>. The quiet calm of the sunset invites reflection, as the day's end gives way to the soothing promise of twilight.
+            </p>
+            
+        </div>
+    </body>
+    </html>
